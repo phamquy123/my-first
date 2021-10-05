@@ -1,0 +1,2083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">  
+    <link rel="stylesheet" href="/assets/css/CUP.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+   <style>
+              *{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+html{font-family: roboto,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    line-height: normal;
+    background-color: #f2f2f2;
+}
+
+
+#app{
+
+}
+#header-one {
+    width: 100%;height: 70px;
+    background-color: white;
+
+
+}
+.header-one-one{
+    align-items: center;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 150px;
+
+
+    
+}
+.logo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.logo-img{
+    position: relative;
+
+}
+.date{
+    
+
+    font-size: 7px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: -12px;
+    right: 0;
+    color: black;
+    font-weight: 600;
+}
+.logo-img img{
+    height: 40px;
+    width: 150px;
+
+}
+
+.logo-img2 img{
+    height:50px ;
+    width: 100px;
+    margin-left: 10px
+    
+}
+.logo2 {
+    font-size: 8px;
+    
+    
+}
+.logo2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.icon {
+    color: brown;
+    font-size: 10px;
+}
+#header-two{
+    width: 100%;
+    height: 25px;
+    background-color: #1e559d;
+    display: flex;
+    flex-direction: row;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+
+}
+#header-two a{
+     color: white;
+     font-size: 7px;
+     text-decoration: none;
+     line-height: 25px;
+     font-family: roboto,Helvetica,Arial,sans-serif;
+    
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.home-icon a{
+    font-size: 12px !important;
+    padding: 0 5px;
+
+}
+.home-one{
+    padding: 0 5px;
+    position: relative;
+    display: inline-block;
+}
+.home-home {display: none;
+position: absolute;
+background-color:#2d96b5;
+min-width: 878px;
+box-shadow: 0px 8px 16px 0px rgba(184, 174, 174, 0.2);
+
+z-index: 1;
+left: -124px;
+height: 20px;
+list-style: none;
+align-items: center;
+
+}
+
+.home-home li{
+    padding: 2px 10px;
+    
+
+    
+ 
+}
+.home-one:hover .home-home{
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+.search a{
+    font-size: 12px !important;
+    color: #3297fd !important;
+
+}
+
+#header-two a:hover{
+    color:#3297fd;
+}
+#content{
+    margin: 5px 150px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto  auto auto;
+    font-size: 7px;
+    border-radius: 3px;
+
+}
+.flag{
+    border: 0.5px solid #eee;
+
+}
+.flag-date{
+    padding: 5px 5px 2px 5px;
+}
+.flag-div img{
+    height: 10px;
+    width: 15px;
+    
+}
+.flag-div{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+
+}
+.flag-para{
+    padding: 0 3px;
+    font-weight: bold;
+}
+#content-main{
+    margin: 3px 150px;
+    background-color: white;
+    
+
+}
+.content-main1{
+    display: flex;
+    flex-direction: row;
+}
+.colum{
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+
+    
+}
+.row{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    background-color: white;
+    box-shadow: -4px -4px 15px 0 rgb(0 0 0 / 10%) inset;
+     border-bottom-right-radius: 25px;
+}
+
+
+
+
+.row-row{
+    padding: 7px  6px;
+    border-top: 1px  solid #f3f3f3;
+    
+}
+.row-row img{
+    height: 15px;
+    width: 15px;
+}
+.icon-icon{
+    color: black;
+    position: relative;
+}
+.number{
+    padding: 1px 1px ;
+    background-color: tomato;
+    border-radius: 50%;
+    font-size: 5px;
+    position: absolute;
+    top: -5px;
+    left: 1px;
+    
+}
+.row-row:hover{
+    cursor: pointer;
+}
+
+.row1{
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    background-color: white;
+    box-shadow: -4px -4px 15px 0 rgb(0 0 0 / 10%) inset;
+     border-bottom-right-radius: 25px;
+     border-top-right-radius: 25px ;
+
+
+    
+}
+
+.row-row1 a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 4px 3px;
+    font-size: 6px;
+    font-weight: bold;
+    border-bottom:  1px solid #f3f3f3;
+}
+.flat-img2 img{
+    height: 15px;
+    width: 15px;
+}
+.para-flat2{
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.row-row2 a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 3px;
+    font-size: 6px;
+    font-weight: bold;
+    
+}
+.row1 a :hover{
+    color: #2d96b5;
+}
+.colum1{
+    
+    margin-top: 10px;
+}
+.ball-one{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+.ball-one1{
+    width: 340px;
+
+    background-color: #f2f2f2;
+}
+
+.ball-one1 img{
+    height: 250px;
+    width: 340px;
+}
+.ball-one-one{
+    margin: 5px 10px;
+}
+.ball-para{
+    padding-right: 260px;
+}
+.ball-para1 a{
+    font-size: 6px;
+    color: #2d96b5;
+    text-decoration: none;
+}
+
+hr {
+    padding: 0.5px 2px;
+    background: rgb(2,11,154);
+background: linear-gradient(338deg, rgba(2,11,154,1) 0%, rgba(249,12,29,0.9587185215883228) 48%);
+}
+.ball-para2{
+    padding: 5px 0;
+}
+.ball-para2 a{
+    
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.ball-para22{
+    color: #3297fd;
+}
+.ball-para3{
+    font-size: 9px;
+  padding-bottom: 5px;
+}
+.ball-para2  :hover{
+    color: #3297fd;
+}
+.ball-one2{
+    background:white;
+    padding: 0 10px 0 0;
+    
+    width: 50%;
+    height: 350px;
+    
+    
+    overflow-y: scroll;
+    
+      
+    
+}
+.ball-one2::-webkit-scrollbar {
+    width: 3px;
+    height: 0;
+    border-radius: 5px;
+    background-color: #eee;
+    padding-right: 5px;
+}
+.ball-one2::-webkit-scrollbar-thumb {
+    background: #cac3c3;
+  }
+  
+
+.scroll{
+    padding: 5px 0px 0px 10px;
+
+
+}
+.ball-one2 a{
+    font-size: 8px;
+    text-decoration: none;
+    color: black;
+}
+.scroll-para{
+    padding: 4px 0;
+
+    border-bottom: 1px solid #f3f3f3;
+}
+   
+.scroll-para1{
+    color: #3b7aba;
+     font-weight: bold;
+}
+.scroll a:hover{
+    color: #3297fd;
+}
+
+.ball-two{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+}
+
+.fifa{
+    width: 149px;
+    margin-right: 10px;
+}
+.fifa img{
+    height: 100px;
+    width: 149px;
+   
+}
+.fifa-para{
+    
+}
+.fifa-para1{
+    padding-right: 80px;
+}
+.fifa-para1 a{ 
+    text-decoration: none;
+    color: #2d96b5;
+    font-size: 7px;
+    
+
+}
+.fifa-para3 a{
+    text-decoration: none;
+    font-size: 9px;
+    color: black;
+    font-weight: bold;
+
+}
+.fifa-span{
+    color: #3297fd;
+}
+.fifa a:hover{
+    color:#3297fd;
+}
+.content-main2{
+    display: flex;
+    flex-direction: row;
+}
+
+.calender-row{
+    width: 360px;
+    padding: 0 10px;
+}
+.calen-colum{
+    padding: 5px 0;
+    
+
+
+}
+.calen-wrap{
+    border: 1px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-bottom-left-radius:15px ;
+    
+    
+
+}
+.calen-wrap a {
+    font-size: 9px;
+}
+.calender-row a{
+    text-decoration: none;
+    color: black;
+}
+.calen-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px;
+    background-color:#bc0136;
+    border-top-right-radius: 15px;
+    
+}
+.calen-header a{
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    
+
+}
+.time{
+font-size: 10px;
+padding:  5px 10px;
+}
+.calen-right a:hover{
+    text-decoration:underline white;
+}
+.calen-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-top: 1px solid #f2f2f2;
+    padding: 5px 0;
+}
+.calen-time1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-top: 1px solid #f2f2f2;
+    padding: 5px 0;
+    background-color: #e4f4ff;
+}
+.calen-time img{
+    width: 15px;
+    height: 12px;
+}
+.calen-time1 img{
+    width: 15px;
+    height: 12px;
+}
+.calen-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 40%;
+}
+.calen-center-right{
+    display: flex;
+    flex-direction: row;
+     justify-content: left;
+    width: 40%;
+    
+
+
+}
+.calen-para{
+    padding: 0 5px;
+}
+.calen-para-right{
+    padding: 0 5px;
+     
+  }
+.calen-time-one {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    
+    font-weight: bold;
+}
+.calen-time-one a{
+    color: #1e559d;
+}
+.calen-colum2{
+    padding: 5px;
+}
+.season{
+    margin-bottom: 5px;
+}
+.season a{
+    color: red;
+    font-weight: bold;
+}
+.calender-row2{
+    padding: 5px;
+
+}
+.adver-img img{
+  height: 350px;
+  width: 175px;
+}
+.adver-span{
+    text-align: center;
+    font-size: 8px;
+    opacity: 0.6;
+}
+.content-main3{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.news{
+    width: 40%;
+    padding-right: 10px;
+
+    
+    
+}
+.title{
+    border-bottom: 1px solid #254892;
+    height: 15px;
+   margin-bottom: 5px;
+ 
+}
+h2{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    display: inline;
+}
+.title-label{
+    padding: 0  5px ;
+    padding-bottom: 0.5px;
+    background-color:#0f408b;
+    position: relative;
+}
+.title-label::before {
+    
+
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 200px;
+ 
+    box-sizing: border-box;
+    height: 15px;
+    background: url(https://cdn-img.thethao247.vn/frontend/images/bg-min.svg?v=1) left -839px no-repeat;
+}
+.title-label span{
+    z-index: 1;
+    position: relative;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+
+}
+.news2{
+    width: 40%;
+}
+.news3{ 
+    width: 20%;
+}
+.news-content{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.news-content img{
+    height: 50px;
+    width: 70px;
+}
+.news-content a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+
+}
+.news-para{
+    padding: 5px;
+}
+.news-content a:hover{
+    color: #3297fd;
+}
+.news2-content{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.news2-content img{
+   width: 100px;
+   height: 70px;
+}
+.vn{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    
+}
+
+.vn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+.vn-para{
+    padding-left: 10px;
+}
+.vn-para2{
+    font-size: 8px;
+    padding-top: 5px;
+}
+.vn1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.vn1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 8px;
+    font-weight: bold;
+
+}
+.vn-two{
+    padding-left: 10px;
+}
+.news2-trending{
+    padding-left: 5px;
+}
+.news2-trend-one {
+    position: relative;
+    display: block;
+}
+.news2-trend-one ::before{
+    content: '';
+    position: absolute;
+    left: 35%;
+    right: 0;
+    border-bottom: 1px solid #f40000;
+    bottom: 7px;
+}
+.trend-a{
+    font-size: 12px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.news2-trend-two {
+     
+    text-align: center;
+    background-color: #f7f7f7;
+   padding: 20px 0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   width: 210px;
+   height: 130px;
+   margin: 10px 0;
+ 
+}
+.news2-trend-two a{
+text-decoration: none;
+}
+.trend-b a{
+
+    font-size: 17px; 
+    color:#0f408b;
+}
+.trend-c a{
+    font-size: 13px;
+   color: #5EB2E6;
+
+}
+
+
+.trend-d,
+.trend-e{
+    display: flex;
+    flex-direction: row;
+    
+}
+.trend-d1{
+    padding-top: 3px;
+    padding-left: 20px;
+}
+.trend-d1 a{
+    font-size: 8px;
+    padding-left: 10px;
+    color: #3875BF;
+    
+}
+.trend-d2{
+    
+}
+.trend-d2 a{
+    color: #ea7a7c;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.trend-e1{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.trend-e1 a{
+    font-size: 8px;
+    padding-left: 5px;
+    color: #3875BF;
+}
+
+.trend-e2 a{
+ color: #0070bb;
+ font-size: 14px;
+}
+.trend-f a{
+    font-size: 17px;
+    color:  #0f408b;
+    
+    
+}
+.news3{
+    width: 20%;
+    
+
+    
+}
+.aff img{
+    height: 350px;
+    width: 100px;
+}
+.aff-img{
+    width: 100px;
+    padding: 5px 10px;
+}
+.aff1{
+    margin: 5px 10px;
+    width: 100px;
+    position: relative;
+}
+
+//*
+.title2{
+    border-bottom: 1px solid #254892;
+    height: 15px;
+   margin-bottom: 5px;
+ 
+}
+p{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: normal;
+    display: inline;
+}
+.title-label2{
+    padding: 0  5px ;
+    padding-bottom: 0.5px;
+    background-color:#0f408b;
+    position: relative;
+}
+.title-label2::before {
+    
+
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100px;
+ 
+    box-sizing: border-box;
+    height: 15px;
+    background: url(https://cdn-img.thethao247.vn/frontend/images/bg-min.svg?v=1) left -839px no-repeat;
+}
+.title-label2 span{
+    z-index: 1;
+    position: relative;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+
+}*/
+.news2{
+    width: 40%;
+}
+.aff-content img{
+    height: 67px;
+    width: 100px;
+}
+.aff-content{
+ padding: 5px 0;
+}
+.aff-p a{
+    font-size: 9px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+.content-main4{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.for{
+    width: 70%;
+}
+
+
+.for-content{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+.for-content img{
+    width: 120px;
+    height: 75px;
+}
+.for-a{
+    padding-left: 10px;
+}
+.for-a a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    color: black;
+}
+.for-c{
+    font-size: 9px;
+    padding: 5px 0;
+}
+
+
+
+
+
+.for-content1{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+   border: none;
+}
+.for-content1 img{
+    width: 120px;
+    height: 75px;
+}
+.sticky img{
+    width: 170px;
+    height: 320px;
+}
+.sticky{
+    padding: 5px 10px ;
+    position: sticky;
+        width: 30%;
+        z-index: 2;
+        position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+        
+
+    
+  
+}
+.button a {
+   text-decoration: none;
+   color: black;
+
+}
+.button{
+    width: 100%;
+    text-decoration: none;
+    padding: 7px 0;
+    font-size: 9px;
+    border: none;
+    border-radius: 2px;
+    
+}
+#footed{
+    
+}
+.footed1{
+
+}
+.footed1-url{
+    background: url(https://cdn-img.thethao247.vn/frontend/images/bg-min.svg?v=1) right -147px no-repeat;
+    padding: 6px 0;
+    height: 30px;
+    width: 100%;
+    background-color: #254892;
+    position: relative;
+
+}
+.footed1-logo{
+    position: absolute;
+    left: 17%;
+    top: 20%;
+    
+    
+}
+.footed1-logo img{
+     height: 25px;
+     width: 90px;
+}
+.footed2{
+   padding: 7px 0;
+   margin-top: 2px;
+   background-color: white;
+   border-top: 2px solid red;
+}
+.footed2-wrap a{
+    text-decoration: none;
+   color: #254892;
+   font-size: 8px;
+}
+.footed2-wrap{
+    display: flex;
+    flex-direction: row;
+  margin-left: 17%;
+  
+}
+.footed2-span {
+    padding: 1px;
+    background-color: #f2f2f2;
+    margin-right: 4px;
+    border: 1px solid #ddd;
+}
+.footed3-wrap{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+   padding-left: 18%;
+   padding-right: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #ebebeb;
+}
+.footed3-title{
+    color: #254892;
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+
+
+}
+.footed3-ul a {
+    text-decoration: none;
+    font-size: 8px;
+    list-style: none;
+}
+.footed3  ul li {
+   list-style: none;
+    padding-left: 10px;
+}
+.footed3-ul li a {
+    position: relative;
+}
+.footed3-ul li a::before{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #1b95e0;
+    position: absolute;
+    left: -8px;
+    top: 4px;
+
+
+}
+.footed3-ul li:nth-child(2n)>a:before {
+    background-color: #ff4747;
+}
+.footed3-ul li a:hover{
+    text-decoration: underline;
+}
+.wrap4{
+    display: grid;
+    grid-template-columns: 130px 130px 110px 260px;
+
+   padding-left: 18%;
+   padding-right: 10%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.footed4-img img{
+  height: 45px ;
+  width: 90px;
+}
+.icon-4{
+    margin: 5px 0;
+}
+.icon-4a {
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-right: 12px;
+    
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 4px rgb(51 51 51 /42%);
+
+}
+.icon-4b {
+    border-radius: 5px;
+    padding: 5px 5px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 4px rgb(51 51 51 /42%);
+
+}
+.footed4-img{
+    margin-top: 10px;
+}
+.icon-4a:hover{
+    background-color: #0269e2;
+}
+.icon-4b:hover{
+    background-color: #97c024;
+}
+.footed4 ul li{
+    list-style: none;
+    font-size: 8px;
+    padding: 3px;
+    
+    
+}
+.footed4-ul a{
+    text-decoration: none;
+    
+    color: black;
+}
+.footed4-ul a:hover{
+    text-decoration: underline;
+}
+.footed4-wrap{
+    
+}
+.footed4-pa{
+    font-size: 9px;
+    opacity: 0.8;
+}
+.footed4-p{
+    font-size: 7px;
+    margin-top: 5px;
+}
+.footed4-p a{
+    color: #254892;
+}
+.footed4-pb{
+    font-size: 7px;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+.img-a img{
+    height: 30px;
+    width: 150px;
+}
+
+
+
+
+   </style>
+</head>
+<body>
+   <div id="app" >
+    <div id="header-one">
+       
+        <div class="header-one-one">
+            <div class="logo" >
+                <a href="#" class="logo-img" >
+                    <div class="logo-one">
+                      <img src="https://thethao247.vn/frontend/images/logo.svg?" alt="logo">
+                        <p class="date">THỨ BẢY, 19:54 25/09/2021</p>
+                        
+                    </div >
+                    
+                </a>
+                <a href="#" class="logo-img2"> 
+                    <div class="logo-two">
+                      <img src="https://thethao247.vn/frontend/images/logo-wc2022.svg" alt="logo">
+                    </div>
+                </a>
+            </div>
+            <div class="logo2">
+                <a href="#">
+                    <i class="fas fa-bolt"></i>
+                    
+                    Lịch thi đấu vòng loại World Cup 2022
+                </a>
+                <a href="#">
+                    <i class="fas fa-briefcase"></i>
+                    Tuyển dụng
+                </a>
+                <a href="#" >
+                    <span class="icon"><i class="fas fa-bullseye"></i></span>
+                    Quảng cáo
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="header-two">
+        
+        
+            <div class="home">
+                <div class="home-icon">
+                      <a  href=""><i class="fas fa-home"></i></a>
+                
+                </div >
+                <div class="home-one">
+                    
+                     <a href="">BÓNG ĐÁ VIỆT NAM</a>
+                     <ul class="home-home">
+                          
+                            <li><a href="">V-League</a></li>
+                            <li><a href="">Đội tuyển Quốc gia</a></li>
+                            <li><a href="">Bóng Đá Nữ</a></li>
+                            <li><a href="">Sự kiện-BÌnh luận bóng đá Việt Nam</a></li>
+                            <li><a href="">AFF Cup 2021</a></li>
+                            <li><a href="">U21 Quốc Gia</a></li>
+                            <li><a href="">U23 Châu Á</a></li>
+                            <li><a href="">Xem thêm <i class="fas fa-chevron-down"></i></a></li>
+  
+                          
+                     </ul>
+                </div>
+                <div class="home-one">
+                    <a href="">FUTSAL</a>
+                </div>
+                <div class="home-one">
+                    <a href="">VÒNG LOẠI WORLD CUP 2022</a>
+                </div>
+                <div class="home-one">
+                    <a href="">BÓNG ĐÁ QUỐC TẾ</a>
+                </div>
+                <div class="home-one">
+                    <a href="">CHUYỂN NHƯỢNG</a>
+                </div>
+                <div class="home-one">
+                    <a href="">THỂ THAO</a>
+                </div>
+                <div class="home-one">
+                    <a href="">VÕ</a>
+                </div>
+                <div class="home-one">
+                    <a href="">XE</a>
+                
+                </div>
+                <div class="home-one">
+                    <a href="">ESPORTS</a>
+                </div>
+                <div class="home-one">
+                    <a href="">KHỎE & ĐẸP</a>
+                </div>
+                <div class="home-one">
+                    <a href="">XU HƯỚNG</a>
+                </div>
+            </div>  
+    
+                
+        
+        
+        <div class="search">
+            <a href="">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </div>
+    <div id="content">
+         <div class="flag">
+             <p class="flag-date">Hôm nay/Futsal</p>
+             <div class="flag-div">
+                 <img src="https://cdn-img.thethao247.vn/origin_40x40/storage/files/team/2021/09/13/brasil-095851.png" alt="flag">
+                 <p class="flag-para">Brasil</p>
+             </div>
+             <div class="flag-div">
+                <img src="https://cdn-img.thethao247.vn/origin_40x40/storage/files/team/2021/09/13/morocco-125610.png" alt="flag">
+                <p class="flag-para">morocco</p>
+            </div>
+        
+         </div>
+         <div class="flag">
+            <p class="flag-date">Thứ năm/7-10-2021</p>
+            <div class="flag-div">
+                <img src="https://cdn-img.thethao247.vn/origin_24x24/upload/api-football/teams/1566.png?v=1" alt="flag">
+                <p class="flag-para">Trung Quốc</p>
+            </div>
+            <div class="flag-div">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/24px-Flag_of_Vietnam.svg.png" alt="flag">
+               <p class="flag-para">Việt Nam</p>
+           </div>
+       
+        </div>
+        <div class="flag">
+            <p class="flag-date">Thứ ba/12-10-2021</p>
+            <div class="flag-div">
+                <img src="https://cdn-img.thethao247.vn/origin_24x24/upload/api-football/teams/1552.png?v=1" alt="flag">
+                <p class="flag-para">Oman</p>
+            </div>
+            <div class="flag-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/24px-Flag_of_Vietnam.svg.png" alt="flag">
+                <p class="flag-para">Việt Nam</p>
+           </div>
+       
+        </div>
+        <div class="flag">
+            <p class="flag-date">Thứ Năm/11-1-2021</p>
+            <div class="flag-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/24px-Flag_of_Vietnam.svg.png" alt="flag">
+                <p class="flag-para">Việt Nam</p>
+            </div>
+            <div class="flag-div">
+               <img src="https://cdn-img.thethao247.vn/origin_24x24/upload/api-football/teams/12.png?v=1" alt="flag">
+               <p class="flag-para">Nhật Bản</p>
+           </div>
+       
+        </div> 
+        <div class="flag">
+            <p class="flag-date">Thứ ba//16-1-2021</p>
+            <div class="flag-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/24px-Flag_of_Vietnam.svg.png" alt="flag">
+                <p class="flag-para">Việt Nam</p>
+            </div>
+            <div class="flag-div">
+               <img src="https://cdn-img.thethao247.vn/origin_24x24/upload/api-football/teams/23.png?v=1" alt="flag">
+               <p class="flag-para">Ả Rập Xê Út</p>
+           </div>
+       
+        </div>
+        <div class="flag">
+            <p class="flag-date">Thứ Năm/27-1-2022</p>
+            <div class="flag-div">
+                <img src="https://cdn-img.thethao247.vn/origin_24x24/upload/api-football/teams/20.png?v=1" alt="flag">
+                <p class="flag-para">Úc</p>
+            </div>
+            <div class="flag-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/24px-Flag_of_Vietnam.svg.png" alt="flag">
+                <p class="flag-para">Việt Nam</p>
+            </div>
+            
+       
+        </div>
+        <div class="flag">
+            <p class="flag-date">Thứ ba/1-2-2022</p>
+            <div class="flag-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/24px-Flag_of_Vietnam.svg.png" alt="flag">
+                <p class="flag-para">Việt Nam</p>
+            </div>
+            <div class="flag-div">
+                <img src="https://cdn-img.thethao247.vn/origin_24x24/upload/api-football/teams/1566.png?v=1" alt="flag">
+                <p class="flag-para">Trung Quốc</p>
+            </div>
+       
+        </div>
+         
+     </div>
+    <div id="content-main">
+        <div class="content-main1">
+            <div class="colum" >
+                  <div class="row">
+                        <div class="row-row">
+                            <div class="icon-icon"><i class="fas fa-bolt"></i> <span class="number">40</span>&nbsp;TIN MỚI</div>
+                           
+                        </div>
+                        <div class="row-row">
+                                <i class="fas fa-archive"></i>&nbsp;VIDDEO
+                        </div>
+                        <div class="row-row">
+                                <i class="fas fa-video"></i>&nbsp;LIVESCORE
+                        </div>
+                        <div class="row-row">
+                                <i class="far fa-calendar-alt"></i>&nbsp;LỊCH THI ĐẤU
+                        </div>
+                        <div class="row-row">
+                                <i class="fas fa-medal"></i>&nbsp;KẾT QUA
+                        </div>
+                        <div class="row-row">
+                                <i class="fas fa-synagogue"></i> &nbsp; BXH
+                        </div>
+                        <div class="row-row">
+                           
+                               <img src="https://thethao247.vn/frontend/images/ico_tructiep.svg" alt="live">
+                               TRỰC TIẾP
+                            </a>
+                        </div>
+                  </div>
+                  <div class="row1">
+                       <div class="row-row1">
+                             <a href="">
+                                  <div class="flat-img2">
+                                      <img src="https://cdn-img.thethao247.vn/upload/api-football/flags/fifa.png" alt=" flag">
+                                  </div> 
+                                  <div class="para-flat2">VL  WORLD CUP</div>
+                             </a>
+                        </div>   
+                       <div class="row-row1">
+                           <a href=""> 
+                               <div  class="flat-img2">
+                                   <img src="https://cdn-img.thethao247.vn/upload/api-football/flags/gb.svg" alt="flag">
+                               </div>
+                               <div class="para-flat2">PREMIER LEAGUE</div>
+                               
+                             </a>
+                        </div>            
+                       <div class="row-row1">
+                           <a href="">
+                                <div class="flat-img2">
+                                    <img src="https://cdn-img.thethao247.vn/upload/api-football/flags/es.svg" alt="flag">
+                                </div>
+                                <div class="para-flat2"> LA LIGA </div>
+                            </a>
+                        </div>            
+                       <div class="row-row1">
+                           <a href="">
+                               <div class="flat-img2">
+                                   <img src="https://cdn-img.thethao247.vn/upload/api-football/flags/it.svg" alt="flag">
+                                </div>
+                               <div class="para-flat2"> SERIE A</div>
+                            </a>
+                        </div>            
+                        <div class="row-row1">
+                            <a href="">
+                                <div class="flat-img2"><img src="https://cdn-img.thethao247.vn/upload/api-football/flags/de.svg" alt="flag"></div>
+                                <div class="para-flat2"> BUNGESLIGA</div>
+                             </a>
+                         </div>            
+                       <div class="row-row1">
+                           <a href="">
+                                <div class="flat-img2"><img src="https://cdn-img.thethao247.vn/upload/api-football/flags/fr.svg" alt="flag"></div>
+                                <div class="para-flat2">LIGUE 1</div>
+                           </a>
+                        </div>   
+                        <div class="row-row1">
+                            <a href="">
+                                 <div class="flat-img2"><img src="https://cdn-img.thethao247.vn/upload/api-football/flags/uefa.png" alt="flag"></div>
+                                 <div class="para-flat2">CUP C1</div>
+                            </a>
+                         </div>   
+                         <div class="row-row1">
+                            <a href="">
+                                 <div class="flat-img2"><img src="https://cdn-img.thethao247.vn/upload/api-football/flags/uefa.png" alt="flag"></div>
+                                 <div class="para-flat2">EUROPA LEAGUE  </div>
+                            </a>
+                         </div>   
+                         <div class="row-row1">
+                            <a href="">
+                                 <div class="flat-img2"><img src="https://cdn-img.thethao247.vn/upload/api-football/flags/vn.svg" alt="flag"></div>
+                                 <div class="para-flat2">V-LEAGUE </div>
+                            </a>
+                         </div>   
+                         <div class="row-row2">
+                            <a href="">
+                                 <div class="flat-img2"><img src="https://cdn-img.thethao247.vn/upload/api-football/leagues/1248.png" alt="flag"></div>
+                                 <div class="para-flat2">AFC CUP </div>
+                            </a>
+                         </div>            
+                       
+
+                  </div>
+            </div>
+            <div class="colum1">
+                 <div class="ball-one">
+                          <div class="ball-one1">
+                                  <img src="https://cdn-img.thethao247.vn/storage/files/thangmv/2021/09/26/truc-tiep-arsenal-3-0-tottenham-saka-tiep-tuc-ghi-ban-78009.jpg" alt="man">
+                                  <div class="ball-one-one">
+                                            <div  class="ball-para">
+                                                  <p class="ball-para1"><a href="">BÓNG ĐÁ VIỆT NAM</a></p>
+                                                 <hr >
+                                            </div>
+                                            <h3 class=" ball-para2"><a href="">NÓNG: ĐT Việt Nam <span class="ball-para22">MẤT MỘT LƯỢT 2 TRỤ CỘT</span></br> trước trận gặp Trung Quốc?</a></h3>
+                                            <p class="ball-para3">Rất có thể, ĐT Việt Nam sẽ phải đón nhận 2 sự mất mát cực lớn về mặt nhân sự trước thềm trận gặp Trung Quốc.</p>
+                                  </div>
+                          </div>
+                          <div class="ball-one2" >
+                                 <div class="scroll">
+                                       <div class="scroll-para"><a href="">HLV Solskjaer đòi <span class="scroll-para1">CÔNG BẰNG</span> cho Bruno Fernandes</a></div>
+                                       <div class="scroll-para"><a href="">Huyền thoại MU tuyên bố thẳng về <span  class="scroll-para1">KHẢ NĂNG VÔ ĐỊCH</span> của đội bóng </a></div>
+                                       <div class="scroll-para"><a href=""> <span  class="scroll-para1">ĐỐI THỦ TỪNG 'GIEO SẦU' HLV PARK </span> tràn trề tự tin đấu ĐT Việt Nam </a></div>
+                                       <div class="scroll-para"><a href="">Mourinho <span  class="scroll-para1"> 'GIẬN CÁ CHÉM THỚT' </span> sau trận thua Lazio </a></div>
+                                       <div class="scroll-para"><a href="">‘Tiểu Zidane’ <span  class="scroll-para1">CHÍNH THỨC GIẢI NGHỆ </span> ở tuổi 34</a></div>
+                                       <div class="scroll-para"><a href="">Một phiên bản Arsenal <span  class="scroll-para1"> KHÁC LẠ </span> so với đầu mùa</a></div>
+                                       <div class="scroll-para"><a href="">Ronaldo bị cổ động viên <span class="scroll-para1">CHẾ NHẠO</span></a></div>
+                                       <div class="scroll-para"><a href=""> <span class="scroll-para1">CỰU ĐỘI TRƯỞNG NAM ĐỊNH TỪ CHỐI HAGL </span> để gia nhập 'đội bóng của bầu Hiển'</a></div>
+                                       <div class="scroll-para"><a href=""> <span class="scroll-para1">CHUYỂN NHƯỢNG MU 27/9</span>: Sir Alex tiết lộ vụ Ronaldo đến Real, Quỷ đỏ ‘trảm’ Solskjaer?</a></div>
+                                       <div class="scroll-para"><a href="">Giới chủ <span class="scroll-para1">MU PHẢN ỨNG BẤT NGỜ</span> sau khởi đầu tệ hại</a></div>
+                                       <div class="scroll-para"><a href="">Một phiên bản Arsenal <span class="scroll-para1">KHÁC LẠ</span> so với đầu mùa</a></div>
+                                       
+
+                                 </div>
+                          </div>
+                 </div>
+                 <div class="ball-two">
+                      <div class="fifa ">
+                          <img src="https://cdn-img.thethao247.vn/resize_389x234/storage/files/cuongnm/2021/09/27/sol-1-1632729452.jpg" alt="man">
+                          <div class="fifa-para">
+                               <div class="fifa-para1">
+                                     <div class="fifa-para2"><a href="">BÓNG ĐÁ VIỆT NAM</a></div>
+                                      <hr >
+                               </div>
+                               <p class="fifa-para3"><a href="">HLV Solskjaer đòi công bằng cho Bruno Fernandes</a></p>
+                          </div>
+                      </div>
+                      <div class="fifa ">
+                        <img src="https://cdn-img.thethao247.vn/resize_389x234/storage/files/viettq/2021/09/27/downloaderla-61515c1413a4c-1632721951.jpg" alt="man">
+                        <div class="fifa-para">
+                             <div class="fifa-para1">
+                                   <div class="fifa-para2"><a href="">BÓNG  ĐÁ VIỆT NAM</a></div>
+                                    <hr >
+                             </div>
+                             <p class="fifa-para3"><a href="">NÓNG: ĐT Việt Nam <span class="fifa-span">mất một lượt 2 trụ cột</span> trước trận gặp Trung Quốc?</a></p>
+                        </div>
+                    </div>
+                    <div class="fifa ">
+                        <img src="https://cdn-img.thethao247.vn/resize_389x234/storage/files/hainam/2021/09/27/dt-thai-lan-bo-nhiem-nguoi-cu-v-league-dau-hlv-park-o-aff-cup-2021-78119.jpg" alt="man">
+                        <div class="fifa-para">
+                             <div class="fifa-para1">
+                                   <div class="fifa-para2"><a href="">BÓNG ĐÁ VIỆT NAM</a></div>
+                                    <hr>
+                             </div>
+                             <p class="fifa-para3"><a href="">ĐT Thái Lan bổ nhiệm <span class="fifa-span">'người cũ V-League' đấu</span> HLV Park ở AFF Cup 2021?</a></p>
+                        </div>
+                    </div>
+                    </div>
+                 </div>
+            </div>
+            <div class="content-main2">
+                <div class="calender-row">
+                        <div class="calen-colum ">
+                            <div class="calen-header">
+                                     <p class="calen-left"><a href="">LỊCH THI ĐẤU BÓNG ĐÁ</a></p>
+                                     <div class="calen-right"><a href="">xem tất ca <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                             <div class="calen-wrap">   
+                                 <div class="time">27-09-2021</div>
+                                 <div class="calen-time1">
+                                            <div class="calen-center">
+                                                <div class="calen-para"><a href="">Tây Ban Nha</a></div>
+                                                <img src="https://cdn-img.thethao247.vn/origin_40x40/storage/files/team/2021/09/13/tay-ban-nha-124907.jpg" alt="fflag">
+                                            </div>
+                                           <div class="calen-time-one"><a href="">21:00</a></div>
+                                            <div class="calen-center-right">
+                                                <img src="https://cdn-img.thethao247.vn/origin_40x40/storage/files/team/2021/09/13/bo-dao-nha-124749.jpg" alt="flag">
+                                                <div class="calen-para-right"><a href="">Bồ Đào Nha</a></div>
+                                            </div>
+                                  </div>
+
+                                 
+                                 <div class="time">28-09-2021</div>
+                                 <div class="calen-time1">
+                                            <div  class="calen-center" >
+                                                  <div class="calen-para"><a href="">Celta Vigo</a></div>
+                                                  <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/538.png?v=1" alt="fflag">
+                                            </div>
+                                            <div class="calen-time-one"><a href="">02:00</a></div>
+                                             <div  class="calen-center-right">
+                                                   <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/715.png?v=1" alt="flag">
+                                                    <div class="calen-para-right"><a href="">Granada CF</a></div>
+                                             </div>
+                                 </div>
+                                  <div class="calen-time">
+                                           <div  class="calen-center">
+                                                   <div class="calen-para"><a href="">Crystal Palace</a></div>
+                                                   <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/52.png?v=1" alt="fflag">
+                                           </div>
+                                           <div class="calen-time-one"><a href="">22:00</a></div>
+                                           <div  class="calen-center-right">
+                                                      <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/51.png?v=1" alt="flag">
+                                                      <div class="calen-para-right"><a href="">Brighton</a></div>
+                                           </div>
+                                  </div>
+                                  <div class="calen-time1">
+                                           <div  class="calen-center">
+                                                       <div class="calen-para"><a href="">Shakhtal Donetsk</a></div>
+                                                        <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/550.png?v=1" alt="fflag">
+                                           </div>
+                                           <div class="calen-time-one"><a href="">22:00</a></div>
+                                           <div  class="calen-center-right">
+                                                       <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/505.png?v=1" alt="flag">
+                                                       <div class="calen-para-right"><a href="">Inter</a></div>
+                                           </div>
+                                   </div>
+                                  <div class="calen-time">
+                                          <div  class="calen-center">
+                                                    <div class="calen-para"><a href="">ajax</a></div>
+                                                    <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/194.png?v=1" alt="fflag">
+                                          </div>
+                                          <div class="calen-time-one"><a href="">23:45</a></div>
+                                          <div  class="calen-center-right">
+                                                    <img src="https://cdn-img.thethao247.vn/upload/api-football/teams/549.png?v=1" alt="flag">
+                                                    <div class="calen-para-right"><a href="">Besiktas</a></div>
+                                          </div>
+                                    </div>
+                              </div>   
+                                
+                        </div>
+
+                      <div class="calen-colum2">
+                            <div class="season">
+                                  <a href="">GIẢI ĐẤU CCS SEASON 3</a>
+                            </div>
+                            <div class="sea-img">
+                                
+                                    <iframe  style="border: none;" src="https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fwww.facebook.com%2FCaothuLMTC%2Fvideos%2F377872563827117%2F&amp;show_text=false&amp;width=560&amp;autoplay=1" width="357" height="220" ></iframe>
+                                
+                            </div>
+                        </div>
+                        
+                </div>
+                <div class="calender-row2">
+                     <div class="adver">
+                           <div class="adver-span">QUẢNG CÁO</div>
+                           <a href="" class="adver-img">
+                                <img src="https://cdn-img.thethao247.vn/storage/files/admin/2021/09/14/quang-cao-75497.png" alt="post">
+                           </a>
+                     </div>
+                     <div class="adver2">
+                           <div class="adver-span">QUẢNG CÁO</div>
+                           <a href="">
+                            <video width="175" height="100" controls>
+                                <source src="movie.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                                Your browser does not support the video tag.
+                              </video>
+                           </a>
+                     </div>
+                </div>
+          </div>
+       
+        <div class="content-main3">
+            <div class="news">
+                   <div class="title">
+                        <h2>
+                              <a href="" class="title-label">
+                                    <span>TIN MỚI NHẤT</span>
+                              </a>
+                        </h2>
+                    </div>
+                  <div class="news-content"> 
+                          <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                         
+                         <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                  </div>
+                  <div class="news-content"> 
+                          <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                   
+                          <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                   </div>
+                   <div class="news-content"> 
+                          <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+             
+                          <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                    </div>
+                    <div class="news-content"> 
+                           <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                 
+                            <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                     </div>
+                    <div class="news-content"> 
+                            <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+             
+                             <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                     </div>
+                     <div class="news-content"> 
+                              <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                              <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                       </div>
+                       <div class="news-content"> 
+                                 <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                                  <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                        </div>
+                        <div class="news-content"> 
+                                 <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                                  <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                       </div>
+                       <div class="news-content"> 
+                               <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                               <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                       </div>
+                       <div class="news-content"> 
+                             <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                             <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                      </div>
+                      <div class="news-content"> 
+                             <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                             <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                     </div>
+                     <div class="news-content"> 
+                            <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                            <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                     </div>
+                     <div class="news-content"> 
+                             <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                            <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                      </div>
+                      <div class="news-content"> 
+                              <a href=""><img src="https://cdn-img.thethao247.vn/resize_248x178/storage/files/doninh/2021/10/03/nhan-dinh-soi-keo-liverpool-vs-man-city-22h30-ngay-3-10_1633096067-1633216836.jpg" alt="man"></a>
+                             <a href="" class="news-para">Lịch thi đấu bóng đá hôm nay 3/10: Liverpool đại chiến Man City</a>
+                     </div>
+                    
+
+            </div>
+            <div class="news2">
+                <div class="title">
+                    <h2>
+                          <a href="" class="title-label">
+                                <span>BÓNG ĐÁ VIỆT NAM</span>
+                          </a>
+                    </h2>
+                </div>
+              <div class="news2-content">
+                      <div class="vn">
+                             <a href=""> <img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/10/03/hlv-park-nhan-tin-vui-lon-tu-tru-cot-hagl-79177.jpg" alt="vn"></a>
+                              <div class="vn-para">
+                                      <a href="" class="vn-para1">HLV Park nhận tin vui lớn từ trụ cột HAGL</a>
+                                      <p class="vn-para2">ĐT Việt Nam đang có được lực lượng đầy đủ từ khi đặt chân...</p>
+                              </div>
+                      </div>
+                      <div class="vn1">
+                              <div class="vn-one">
+                                      <a href=""><img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/09/30/lich-thi-dau-chung-ket-futsal-world-cup-2021-78617.jpg" alt=""></a>
+                                      <a href="" class="vn-one-para">Lịch thi đấu Chung kết Futsal World Cup 2021</a>
+                              </div>
+                              <div class="vn-two">
+                                      <a href=""><img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/10/03/lich-su-doi-dau-viet-nam-vs-trung-quoc-ap-dao-hoan-toan-79170.jpg" alt=""></a>
+                                      <a href="" class="vn-one-para">Lịch sử đối đầu Việt Nam vs Trung Quốc: Áp đảo hoàn toàn</a>
+                              </div>
+                      </div>
+                      
+              </div>
+                <div class="news2-trending">
+                         <div class="news2-trend-one">
+                                   <a href="" class="trend-a"># TRENDING   </a>
+                         </div>
+                         <div class="news2-trend-two">
+                                   <div class="trend-b"><a href="">Bóng đá Anh</a></div>
+                                   <div class="trend-c"><a href="">Bóng đá Tây Ban Nha</a></div>
+                                   <div class="trend-d">
+                                          <div class="trend-d1"><a href="">Cúp C1</a></div>
+                                          <div class="trend-d2"> <a href="">Bóng đá Đức</a></div>
+                                   </div>
+                                   <div class="trend-e">
+                                          <div class="trend-e1"><a href="">Europa League</a> </div>
+                                          <div class="trend-e2"><a href=""> World Cup 2022</a></div>
+                                   </div>
+                                   <div class="trend-f"><a href="">Tin Chuyển Nhượng</a></div>
+                         </div>
+
+                </div>
+                <div class="title">
+                    <h2>
+                          <a href="" class="title-label">
+                                <span>BÓNG ĐÁ VIỆT NAM</span>
+                          </a>
+                    </h2>
+                </div>
+                <div class="news2-content">
+                    <div class="vn">
+                           <a href=""> <img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/10/03/hlv-park-nhan-tin-vui-lon-tu-tru-cot-hagl-79177.jpg" alt="vn"></a>
+                            <div class="vn-para">
+                                    <a href="" class="vn-para1">HLV Park nhận tin vui lớn từ trụ cột HAGL</a>
+                                    <p class="vn-para2">ĐT Việt Nam đang có được lực lượng đầy đủ từ khi đặt chân...</p>
+                            </div>
+                    </div>
+                    <div class="vn1">
+                            <div class="vn-one">
+                                    <a href=""><img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/09/30/lich-thi-dau-chung-ket-futsal-world-cup-2021-78617.jpg" alt=""></a>
+                                    <a href="" class="vn-one-para">Lịch thi đấu Chung kết Futsal World Cup 2021</a>
+                            </div>
+                            <div class="vn-two">
+                                    <a href=""><img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/10/03/lich-su-doi-dau-viet-nam-vs-trung-quoc-ap-dao-hoan-toan-79170.jpg" alt=""></a>
+                                    <a href="" class="vn-one-para">Lịch sử đối đầu Việt Nam vs Trung Quốc: Áp đảo hoàn toàn</a>
+                            </div>
+                    </div>
+
+                    
+            </div>
+            <div class="news2-trending">
+                <div class="news2-trend-one">
+                          <a href="" class="trend-a"># TRENDING   </a>
+                </div>
+                <div class="news2-trend-two">
+                          <div class="trend-b"><a href="">Bóng đá Anh</a></div>
+                          <div class="trend-c"><a href="">Bóng đá Tây Ban Nha</a></div>
+                          <div class="trend-d">
+                                 <div class="trend-d1"><a href="">Cúp C1</a></div>
+                                 <div class="trend-d2"> <a href="">Bóng đá Đức</a></div>
+                          </div>
+                          <div class="trend-e">
+                                 <div class="trend-e1"><a href="">Europa League</a> </div>
+                                 <div class="trend-e2"><a href=""> World Cup 2022</a></div>
+                          </div>
+                          <div class="trend-f"><a href="">Tin Chuyển Nhượng</a></div>
+                </div>
+
+       </div>
+       <div class="news2-content">
+        <div class="vn">
+               <a href=""> <img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/10/03/hlv-park-nhan-tin-vui-lon-tu-tru-cot-hagl-79177.jpg" alt="vn"></a>
+                <div class="vn-para">
+                        <a href="" class="vn-para1">HLV Park nhận tin vui lớn từ trụ cột HAGL</a>
+                        <p class="vn-para2">ĐT Việt Nam đang có được lực lượng đầy đủ từ khi đặt chân...</p>
+                </div>
+        </div>
+        <div class="vn1">
+                <div class="vn-one">
+                        <a href=""><img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/09/30/lich-thi-dau-chung-ket-futsal-world-cup-2021-78617.jpg" alt=""></a>
+                        <a href="" class="vn-one-para">Lịch thi đấu Chung kết Futsal World Cup 2021</a>
+                </div>
+                <div class="vn-two">
+                        <a href=""><img src="https://cdn-img.thethao247.vn/resize_382x240/storage/files/doninh/2021/10/03/lich-su-doi-dau-viet-nam-vs-trung-quoc-ap-dao-hoan-toan-79170.jpg" alt=""></a>
+                        <a href="" class="vn-one-para">Lịch sử đối đầu Việt Nam vs Trung Quốc: Áp đảo hoàn toàn</a>
+                </div>
+        </div>
+
+        
+</div>
+            </div>
+            <div class="news3">
+                   <div class="aff">
+                          <div class="adver-span">QUẢNG CÁO</div>
+                          <div class="aff-img"><img src="https://tpc.googlesyndication.com/simgad/4482734238429878763?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qmfpCqWZc34VEKLLmFO-blIGaLbVA" alt=""></div>
+                   </div>
+                   <div class="aff1">
+                         <div class="title2">
+                            <p>
+                                 <a href="" class="title-label2">
+                                     <span>AFF CUP 2021</span>
+                                </a>
+                            </h2>
+                          </div>
+                          <div class="aff-content">
+                                <a href="" ><img src="https://cdn-img.thethao247.vn/resize_320x200/storage/files/doninh/2021/10/02/kiatisak-neu-thai-lan-that-bai-o-aff-cup-nhm-cung-se-quen-thoi-79083.jpg" alt=""></a>
+                                <div class="aff-p" ><a href="">  Kiatisak: 'Nếu Thái Lan thất bại ở AFF Cup, NHM cũng sẽ quen thôi</a></div>
+
+                          </div>
+                          <div class="aff-content">
+                                    <a href="" ><img src="https://cdn-img.thethao247.vn/resize_320x200/storage/files/doninh/2021/10/02/kiatisak-neu-thai-lan-that-bai-o-aff-cup-nhm-cung-se-quen-thoi-79083.jpg" alt=""></a>
+                                    <div class="aff-p" ><a href="">  Kiatisak: 'Nếu Thái Lan thất bại ở AFF Cup, NHM cũng sẽ quen thôi</a></div>
+
+                           </div>
+                           
+                   </div>
+                   <div class="aff">
+                         <div class="adver-span">QUẢNG CÁO</div>
+                          <div class="aff-img"><img src="https://tpc.googlesyndication.com/simgad/4482734238429878763?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qmfpCqWZc34VEKLLmFO-blIGaLbVA" alt=""></div>
+                  </div>
+                   
+            </div>
+        </div>
+        <div class="content-main4">
+                <div class="for">
+                    <div class="title">
+                
+                             <a href="" class="title-label">
+                                 <span>AFF CUP 2021</span>
+                             </a>
+                            
+                      </div>
+                      <div class="for-content">
+                              <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+                              <div class="for-a">
+                                      <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+                                      <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+                              </div>
+                               
+                      </div>
+                      <div class="for-content">
+                        <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+                        <div class="for-a">
+                                <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+                                <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+                        </div>
+                         
+                </div>
+                <div class="for-content">
+                    <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+                    <div class="for-a">
+                            <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+                            <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+                    </div>
+                     
+            </div>
+            <div class="for-content">
+                <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+                <div class="for-a">
+                        <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+                        <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+                </div>
+                 
+        </div>
+          <div class="for-content">
+            <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+            <div class="for-a">
+                    <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+                    <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+            </div>
+             
+    </div>
+    <div class="for-content">
+        <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+        <div class="for-a">
+                <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+                <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+        </div>
+         
+</div>
+<div class="for-content">
+    <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+    <div class="for-a">
+            <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+            <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+    </div>
+     
+</div><div class="for-content">
+    <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+    <div class="for-a">
+            <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+            <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+    </div>
+     
+</div><div class="for-content">
+    <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+    <div class="for-a">
+            <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+            <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+    </div>
+     
+</div><div class="for-content">
+    <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+    <div class="for-a">
+            <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+            <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+    </div>
+     
+</div><div class="for-content1">
+    <a href=""><img src="https://cdn-img.thethao247.vn/resize_392x250/storage/files/vanhung/2021/10/04/downloaderla-615a1eca850e6-1633296101.jpg" alt=""></a>
+    <div class="for-a">
+            <div class="for-b"><a href="">Đội bóng duy nhất đang bất bại tại Ngoại hạng Anh</a></div>
+            <div class="for-c">Tính đến thời điểm trước khi kỳ nghỉ thi đấu quốc tế tháng 10 diễn ra, giải Ngoại hạng Anh chỉ còn duy nhất một đội bóng chưa phải nếm mùi thất bại sau 7 vòng đấu.</div>
+    </div>
+     
+</div>
+    <button class="button"><a href="">XEM THÊM</a></button>
+                </div>
+                <div class="sticky">
+                         <div class="adver-span">QUẢNG CÁO</div>
+                           
+                         <a href=""><img src="https://tpc.googlesyndication.com/simgad/6092896204637773651?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlXNZNuy0l6TW_5PwmoZDy_0zasRQ" alt=""></a>
+                </div>
+        </div>
+        
+
+    </div>
+
+    <div id="footed">
+          <div  class="footed1">
+                  <div class="footed1-url">
+                         <a href="" class="footed1-logo">
+                                  <img src="https://thethao247.vn/frontend/images/logo_mobile_footer.png" alt="247">
+                         </a>
+                  </div>
+                  
+          </div>
+          <div  class="footed2"> 
+                   <div class="footed2-wrap">
+                           <div class="footed2-span"><a href="">Thể Thao 24h</a></div>
+                           <div class="footed2-span"><a href="">Đọc Báo VTC</a></div>
+                           <div class="footed2-span"><a href="">Tinmoi.vn</a></div>
+                           <div class="footed2-span"><a href="">Công nghệ</a></div>
+
+                   </div>
+          </div>
+          <div  class="footed3">
+                    <div class="footed3-wrap">
+                          <div class="footed3-ul">
+                                   <p class="footed3-title">TIỆN ÍCH BÓNG ĐÁ</p>
+                                   <ul class="">
+                                           <li > <a href="">lịch thi đấu bóng đá</a></li>
+                                           <li ><a href=""> Kết quả bóng đá</a></li>
+                                           <li> <a href=""> Bảng xếp hạng</a></li>
+                                           <li>   <a href="">Trực tiếp bóng đá</a></li>
+                                           <li> <a href="">Livescore</a></li>
+                                   </ul>
+                          </div>
+                          <div class="footed3-ul">
+                                     <p class="footed3-title">GIẢI ĐẤU</p>
+                                  <ul>
+                                        <li> <a href="">V-League</a></li>
+                                        <li>  <a href="">Bóng đá Anh</a></li>
+                                        <li> <a href=""> Bóng đá Ý</a></li>
+                                        <li> <a href=""> Bóng đá Tây Ban Nha</a></li>
+                                        <li> <a href=""> Bóng đá Đức</a></li>
+                                        <li> <a href=""> Bóng đá Pháp</a></li>
+                                        <li> <a href="">Cúp C1</a></li>
+                                        <li> <a href=""> Europa League</a></li>
+                                  
+                                  </ul>
+                          </div>
+                          <div class="footed3-ul">
+                                  <p class="footed3-title">THỂ THAO</p>
+                                  <ul>
+                                         <li><a href="">Quần vợt</a></li>
+                                         <li><a href=""> Cầu lông</a></li>
+                                         <li><a href=""> Đua xe</a></li>
+                                         <li><a href="">  Golf</a></li>
+                                         <li><a href=""> Bóng chuyền</a></li>
+
+                                  </ul>
+                          </div>
+                          <div class="footed3-ul">
+                                 <p class="footed3-title">CÂU LẠC BỘ</p>
+                                 <ul>
+                                      <li><a href=""> Manchester United</a></li>
+                                      <li><a href="">Chelsea</a></li>
+                                      <li><a href="">Barcelona</a></li>
+                                      <li><a href="">Real Madrid</a></li>
+                                      <li><a href="">Juventus</a></li>
+                                      <li><a href="">Liverpool</a></li>
+                                      <li><a href="">Manchester City</a></li>
+                                      <li><a href="">Arsenal</a></li>
+                                      <li><a href="">Bayern Munich</a></li>
+                                      <li><a href="">Hà Nội FC</a></li>
+                                      <li><a href="">HAGL</a></li>
+                                    </ul>
+                          </div>
+                          <div class="footed3-ul">
+                                  <p class="footed3-title">CẦU THỦ</p>
+                                  <ul>
+                                         <li><a href="">    Ronaldo</a></li>
+                                         <li><a href="">Messi</a></li>
+                                         <li><a href="">Neymar</a></li>
+                                         <li><a href="">Quang Hải</a></li>
+                                         <li><a href="">Nguyễn Công Phượng</a></li>
+
+                                  </ul>
+ 
+                          </div>
+
+                     </div>
+          </div>
+          <div  class="footed4">
+                 <div class="wrap4">
+                         <div class="footed4-ul">
+                            <p class="footed3-title">APP MOBILE</p>
+                              <div class="icon-4">
+                                     <a href="" class="icon-4a"><i class="fab fa-apple"></i></a>
+                                     <a href="" class="icon-4b"><i class="fab fa-android"></i></a>
+                              </div>
+                              <div  class=" footed4-img" ><a href=""><img src="https://tinnhiemmang.vn/handle_cert?id=thethao247.vn" alt="car"></a></div>
+                         </div>
+                        <div class="footed4-ul">
+                            <p class="footed3-title"> LIÊN HỆ</p>
+                             <ul>
+                                  <li><a href="">Giới thiệu</a></li>
+                                  <li><a href=""> Chính sách bảo mật</a></li>
+                                  <li><a href="">Quảng cáo</a></li>
+                            </ul>
+                        </div>
+                        <div class="footed4-ul">   
+                            <p class="footed3-title"> SOCIAL</p>
+                             <ul> 
+                                     <li><a href=""><i class="fab fa-youtube-square"></i>  Youtube</a></li>
+                                     <li><a href=""><i class="fab fa-instagram"></i>  Zalo</a></li>
+                                     <li><a href=""><i class="fab fa-facebook-square"></i> Facebook</a></li>
+                                     <li><a href="">   <i class="fab fa-twitter-square"></i> Twitter</a></li>
+                                     <li><a href=""><i class="fas fa-rss"></i> RSS</a></li>
+                                     <li><a href=""><i class="fab fa-tiktok"></i>Tiktok</a></li>
+
+                             </ul>
+                        </div>
+                        <div class="footed4-ul">   
+                            <div class="footed4-wrap">
+                                <div class="footed4-pa"><b> CÔNG TY CP DỊCH VỤ TRUYỀN THÔNG THỂ THAO 247</b></div>
+                                <div class="footed4-p">Người chịu trách nhiệm quản lý nội dung: <b>Nguyễn Huy Hoàn</b> </div>
+                                <div class="footed4-p">Giấy phép trang tin điện tử tổng hợp số: <b>1749/GP-TTĐT</b> do Sở Thông tin và Truyền thông Hà Nội cấp ngày 28/04/2017</div>
+                                <div class="footed4-p"><b>Địa chỉ giao dịch:</b> Căn 12, Mộc Lan 6 (ML6-12), khu đô thị Vinhomes Green Bay, phường Mễ Trì, quận Nam Từ Liêm, Hà Nội</div>
+                                <div class="footed4-p"><b>Điện thoại:</b> <a href="">0847 100 247</a> / <b>Email:</b> <a href="">contact@thethao247.vn</a></div>
+                                <div class="footed4-pb"><b>Trụ sở chính: </b> Tầng 4, Tòa tháp Ngôi Sao - Star Tower, đường Dương Đình Nghệ - Phường Yên Hòa - Quận Cầu Giấy - Hà Nội</div>
+                                <div  class="img-a"><img src="https://images.dmca.com/Badges/dmca-badge-w250-5x1-06.png?ID=d31a2a19-f919-485f-93b2-8697b3a6ff75" alt=""></div>
+                             </div>
+                         </div>
+                    
+                 </div>
+          </div>
+    </div>
+    
+  
+    
+   </div>
+</body>
+</html>
